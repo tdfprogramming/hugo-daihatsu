@@ -97,3 +97,8 @@ disableLatLong = false
 enableGitInfo = true
 [frontmatter]
 	lastmod = ["lastmod", ":fileModTime", ":default"]
+
+[taxonomies]
+  page = "pages"
+  subcontent = "subcontents"
+  topik = "topiks"
