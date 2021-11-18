@@ -6,5 +6,9 @@ draft: false
 pages: ["car"] # halaman 
 harga: Rp. 200.000,00
 image: /images/car/ayla-daihatsu.png
+
+detail: Astra Daihatsu Ayla hadir dengan interior yang elegant dan memiliki fitur-fitur canggih di dalamnya. Nikmati dan rasakan fiturnya. Desain dan fitur baru Astra Daihatsu Ayla bikin lo makin stylish dan nyaman. Biar lo SERIUS SERUNYA!
+
+
 ---
 
