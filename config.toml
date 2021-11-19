@@ -1,10 +1,10 @@
 baseURL = 'http://example.org/'
 
-
 languageCode = "id-id"
 defaultContentLanguage = "id"
 title = 'Dialer Daihatsu'
 
+paginate = 10
 
 # theme to use (located by default in /themes/THEMENAME/)
 themesDir = "themes"
@@ -100,5 +100,5 @@ enableGitInfo = true
 
 [taxonomies]
   page = "pages"
-  subcontent = "subcontents"
-  topik = "topiks"
+
+
