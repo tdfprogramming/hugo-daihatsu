@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://upbeat-bartik-9be152.netlify.app/'
 
 languageCode = "id-id"
 defaultContentLanguage = "id"
