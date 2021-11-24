@@ -34,7 +34,7 @@
         <div class="container">
             <div class="row text-center intro-title">
                 <div class="col-md-6 text-md-left d-inline-block">
-                    <h1 class="text-white">product listing  {{ .Title }}</h1>
+                    <h1 class="text-white">product listing {{ .Title }}</h1>
                 </div>
                 <div class="col-md-6 text-md-right float-right">
                     <ul class="page-breadcrumb">
@@ -69,10 +69,13 @@ product-listing  -->
                                         <img class="img-fluid" src="{{ .Params.image }}" alt="">
                                         <div class="car-overlay-banner">
                                             <ul>
-                                                <li><a href="{{ .Permalink }}"><i class="fa fa-link"></i></a></li>
-                                                <li><a
-                                                        href="https://api.whatsapp.com/send?phone=+6281276977616&text=Selamat%20datang%20di%20Dealer%20Daihatsu%0Mobil%20{{ .Title }}%20Ingin%20Menanyakan%20Harga?" target="_blank">
-                                                        <i class="fa fa-shopping-cart"></i></a></li>
+                                                <!-- <li><a href="{{ .Permalink }}"><i class="fa fa-link"></i></a></li> -->
+                                                <li>
+                                                    <a href="https://api.whatsapp.com/send?phone=+6281276977616&text=Selamat%20datang%20di%20Dealer%20Daihatsu%0Mobil%20{{ .Title }}%20Ingin%20Menanyakan%20Harga?"
+                                                        target="_blank">
+                                                        <i class="fa fa-shopping-cart"></i>
+                                                    </a>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -85,9 +88,10 @@ product-listing  -->
                                         <p>{{ .Params.detail }}</p>
                                     </div>
                                     <div class="price">
-                                        <h6>Harga Mulai</h6>
+                                        <h6>Harga</h6>
                                         <span class="new-price">{{ .Params.harga }}</span>
-                                        <a class="button red float-right" href="{{ .Permalink }}">Details</a>
+                                        <a class="button red float-right"
+                                            href="https://api.whatsapp.com/send?phone=+6281276977616&text=Selamat%20datang%20di%20Dealer%20Daihatsu, Ingin Menanyakan mobil {{ .Title }}">Pesan</a>
                                     </div>
                                     <!-- <div class="car-list">
                                         <ul class="list-inline">
