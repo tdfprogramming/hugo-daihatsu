@@ -1,4 +1,4 @@
-baseURL = 'https://dikydaihatsu.com/'
+baseURL = 'http://dikydaihatsu.com/'
 
 languageCode = "id-id"
 defaultContentLanguage = "id"
