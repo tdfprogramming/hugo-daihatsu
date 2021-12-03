@@ -8,4 +8,3 @@ harga: Rp 133,950,000
 image: /images/car/sigra.png
 detail : Interior Daihatsu Sigra hadir dalam 2 warna dashboard, Dark dan Light Grey. Design eksterior yang stylish dan elegan, menjadikan New Astra Daihatsu Sigra MPV 7-seater yang lebih berkelas untuk melengkapi gaya berkendara masa kini.
 ---
-
